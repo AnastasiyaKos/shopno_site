@@ -18,57 +18,60 @@
         <a class="main-header-logo">
             <img src="./img/SHOPNO_logo.svg" alt="логотип сайта">
         </a>
+        <div class="visually-hidden nav-menu">
+            <ul class="menu-list">
+                <li class="menu-title">
+                    <a href="#about">About us</a>
+                </li>
+                <li class="menu-title">
+                    <a href="#works">Featured works</a>
+                </li>
+                <li class="menu-title">
+                    <a href="#services">Our services</a>
+                </li>
+                <li class="menu-title">
+                    <a href="#team">Small team</a>
+                </li>
+                <li class="menu-title">
+                    <a href="#what-say">What they says</a>
+                </li>
+                <li class="menu-title">
+                    <a href="#contact">Contact us</a>
+                </li>
+            </ul>
+        </div>
         <div class="menu">
             <span class="navicon">
                 <img src="img/menu.svg" alt="navicon">
                 <img src="img/menu.svg" class="navicon-item" alt="navicon">
                 <img src="img/menu.svg" alt="navicon">
             </span>
-            <div class="visually-hidden">
-                <ul class="menu-list">
-                    <li class="menu-title">
-                        <a>About us</a>
-                    </li>
-                    <li class="menu-title">
-                        <a>Featured works</a>
-                    </li>
-                    <li class="menu-title">
-                        <a>Our services</a>
-                    </li>
-                    <li class="menu-title">
-                        <a>Small team</a>
-                    </li>
-                    <li class="menu-title">
-                        <a>What they says</a>
-                    </li>
-                    <li class="menu-title">
-                        <a>Contact us</a>
-                    </li>
-                </ul>
-            </div>
+        </div>
+        <div class="visually-hidden close">
+            <img src="img/close.svg">
         </div>
     </nav>
     <div></div>
 </header>
 <main class="main-container">
-    <section class="greeting">
-        <span class="greeting-text">Say hello to<span class="blue-color"> Shopno!</span><br>
-            <span class="blue-color"> Agency </span>corporate Shopno theme
-        </span>
-        <button class="button-contact">Contact us</button>
-        <img src="" alt="">
-        <img src="" alt="">
-    </section>
+    <div class="container">
+        <section class="greeting">
+            <span class="greeting-text">Say hello to<span class="blue-color"> Shopno!</span><br>
+                <span class="blue-color"> Agency </span>corporate Shopno theme
+            </span>
+            <button class="button-contact">Contact us</button>
+            <img src="" alt="">
+        </section>
+    </div>
     <div>
         <div class="about-us-background">
-            <section class="container section-container container-about-us">
+            <section  id="about" class="container section-container container-about-us">
                 <h1>About us</h1>
                 <p class="info-section">Lorem ipsum dolor sit amet event landing template</p>
                 <div class="flex-container about-us">
                     <div class="image-container">
-                        <img class="image" src="img/about_us.png">
-                        <img class="background-image" src="img/background_about.jpg">
-
+                        <img class="image" src="img/about_us.png" alt="">
+                        <img class="background-image" src="img/background_about.jpg" alt="">
                     </div>
                     <div>
                         <h2>We Actually Do amazing works</h2>
@@ -93,73 +96,127 @@
         </div>
 
         <div class="featured-works-background">
-            <section class="container section-container featured-works ">
+            <section id="works" class="container section-container featured-works ">
                 <h1>Featured works</h1>
                 <p class="info-section">Lorem ipsum dolor sit amet event landing template</p>
                 <div class="flex-container">
-                    <img src="./img/works1.png">
-                    <img src="./img/work2.png">
-                    <img src="./img/work3.png">
-                    <img src="./img/work4.png">
-                    <img src="./img/work5.png">
-                    <img src="./img/work6.png">
+                    <img class="works-image" src="./img/works1.png" alt="">
+                    <img class="works-image" src="./img/work2.png" alt="">
+                    <img class="works-image" src="./img/work3.png" alt="">
+                    <img class="works-image" src="./img/work4.png" alt="">
+                    <img class="works-image" src="./img/work5.png" alt="">
+                    <img class="works-image" src="./img/work6.png" alt="">
                 </div>
             </section>
         </div>
 
         <div class="our-services-background">
-            <section class="container section-container our-services">
+            <section id="services" class="container section-container our-services">
                 <h1>Our services</h1>
                 <p class="info-section">Lorem ipsum dolor sit amet event landing template</p>
-                <div>
+                <div class="flex-container">
+                    <div class="catalog-services">
+                        <img src="img/services1.jpg">
+                        <div class="services-info">
+                            <p class="title">Designing is The CooL LOVE FOR.</p>
+                            <p class="services-description">
+                                Our most popular service is our Virtual Receptionist.
+                                We know that ...</p>
+                            <button class="button button-know-more">Know more
+                                <img src="img/arrow-button.svg"></button>
+                        </div>
+                    </div>
 
+                    <div class="catalog-services">
+                        <img src="img/services2.jpg">
+                        <div class="services-info">
+                            <p class="title">cool psd Design</p>
+                            <p class="services-description">Our most popular service is our
+                                we know that sometimes it’s something and you middle most..</p>
+                            <button class="button button-know-more">Know more
+                                <img src="img/arrow-button.svg"></button>
+                        </div>
+                    </div>
+                    <div class="catalog-services">
+                        <img src="img/services2.png">
+                        <div class="services-info">
+                            <p class="title">Designing is The Cool</p>
+                            <p class="services-description">Our most popular service is our Virtual Receptionist. We know that ...</p>
+                            <button class="button button-know-more">Know more
+                                <img src="img/arrow-button.svg"></button>
+                        </div>
+                    </div>
+                    <div class="catalog-services">
+                        <img src="img/services4.jpg">
+                        <div class="services-info">
+                            <p class="title">PSD TO HTML KORI</p>
+                            <p class="services-description">We know that sometimes it’s something and you middle most..</p>
+                            <button class="button button-know-more">Know more
+                                <img src="img/arrow-button.svg"></button>
+                        </div>
+                    </div>
+                    <div class="catalog-services">
+                        <img src="img/services5.jpg">
+                        <div class="services-info">
+                            <p class="title">cool psd Design</p>
+                            <p class="services-description">Our most popular service is our new virtual Receptionist you middle most..</p>
+                            <button class="button button-know-more">Know more
+                                <img src="img/arrow-button.svg"></button>
+                        </div>
+                    </div>
+                    <div class="catalog-services">
+                        <img src="img/services6.jpg">
+                        <div class="services-info">
+                            <p class="title">Designing is The Cool FOR</p>
+                            <p class="services-description">Our most popular service is our Virtual Receptionist.
+                                We know that sometimes it’s something and you middle most..</p>
+                            <button class="button button-know-more">Know more
+                                <img src="img/arrow-button.svg"></button>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>
 
         <div class="team-background">
-            <section class="container section-container small-team">
+            <section id="team" class="container section-container small-team">
                 <h1>Small team</h1>
                 <p class="info-section">Lorem ipsum dolor sit amet event landing template</p>
                 <div class="flex-container">
-                    <img src="./img/staff1.jpg">
+                    <img src="./img/staff1.jpg" alt="">
                     <div class="photo-item">
-                        <img src="./img/staff2.jpg">
+                        <img src="./img/staff2.jpg" alt="">
                         <div class="worker-info-block">
-                            <img src="img/info.svg" >
+                            <img src="img/info.svg" alt="">
                             <div class="worker-info-text">
                                 <span class="worker-name">Al Rayhan</span>
                                 <span class="worker-position">/ UI Designer</span>
-                                <p class="worker-description">Lorem Ipsum is not simply is  an action designer random text
-                                    It has roots in a piece.</p>
+                                <p class="worker-description">Lorem Ipsum is not simply is an action designer random
+                                    text. It has roots in a piece.</p>
                                 <div class="worker-contacts">
-                                    <img src="img/small_facebook.svg">
-                                    <img src="img/small_twitter.svg">
-                                    <img src="img/small_social.svg">
-                                    <img src="img/small_mail.svg">
+                                    <img src="img/small_facebook.svg" alt="">
+                                    <img src="img/small_twitter.svg" alt="">
+                                    <img src="img/small_social.svg" alt="">
+                                    <img src="img/small_mail.svg" alt="">
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <img src="./img/staff3.jpg">
-                    <img src="./img/staff4.jpg">
-                    <img src="./img/staff5.jpg">
-                    <img src="./img/staff1.jpg">
+                    <img src="./img/staff3.jpg" alt="">
+                    <img src="./img/staff4.jpg" alt="">
+                    <img src="./img/staff5.jpg" alt="">
+                    <img src="./img/staff1.jpg" alt="">
                 </div>
             </section>
         </div>
 
         <div class="what-they-says-background">
-            <section class="container section-container what-they-says">
+            <section id="what-say" class="container section-container what-they-says">
                 <h1>What they says</h1>
                 <p class="info-section">Lorem ipsum dolor sit amet event landing template</p>
                 <div class="flex-container">
                     <div>
-                        <div class="image-container_">
-                            <img src="./img/what_say_img.png">
-                            <div class="image-container-background"></div>
-                        </div>
+                        <img class="review-photo" src="./img/what_say_img.png" alt="">
                         <div class="slide-button"></div>
                     </div>
                     <div>
@@ -173,19 +230,19 @@
                                 make a type specimen book.
                             </p>
                             <div class="star-rating">
-                                <img src="img/star.svg">
-                                <img src="img/star.svg">
-                                <img src="img/star.svg">
-                                <img src="img/star.svg">
-                                <img src="img/star.svg">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
+                                <img src="img/star.svg" alt="">
                             </div>
                         </div>
                         <div class="comment-button">
                             <button class="button button-prev">
-                                <img src="img/prev.svg">
+                                <img src="img/prev.svg" alt="">
                             </button>
                             <button class="button button-next">
-                                <img src="img/next.svg">
+                                <img src="img/next.svg" alt="">
                             </button>
                         </div>
                     </div>
@@ -195,50 +252,62 @@
 
         <div class="brands-background">
             <section class="brands container section-container">
-                <img src="img/brands.png">
+                <img src="img/brands.png" alt="">
             </section>
         </div>
     </div>
 </main>
 <footer class="main-footer">
-    <section class="contact flex-container section-container">
-        <div class="message-container">
-            <input>
-            <input>
-            <input>
-            <input>
-            <button>Send message</button>
-        </div>
-        <div>
-            <div class="contact-info"></div>
-            <div class="map-container">
-                <img src="">
+    <div class="contact-background section-container">
+        <section id="contact" class="contact flex-container container">
+            <div class="message-container">
+                <input type="text" placeholder="Name*">
+                <input type="text" placeholder="Subject*">
+                <input type="email" placeholder="E-mail*">
+                <input type="text" placeholder="Message*" class="input-message">
+                <button type="submit" class="button send-message">Send message</button>
             </div>
-        </div>
-    </section>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p class="">Adress line 1</p>
+                    <p class="">Adress line 2</p>
+                    <p class="">Phone: +548 945645</p>
+                    <p class="">Fax: +456456 54546</p>
+                    <p class="internet-contact">Web: wwww.designagency.net</p>
+                    <p class="">E-mail: info@designagency.net</p>
+                </div>
+                <div class="map-container">
+                    <img src="img/map.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
 
-    <div class="footer-social">
-        <h2>Follow us</h2>
-        <ul class="social-item">
-            <li><a class="social-button" href="#">
-                <span class="visually-hidden">Pinterest</span>
-                <img src="" width="" height="">
-            </a></li>
-            <li><a class="social-button" href="#">
-                <span class="visually-hidden">Twitter</span>
-                <img src="" width="" height="">
-            </a></li>
-            <li><a class="social-button" href="#">
-                <span class="visually-hidden">Facebook</span>
-                <img src="" width="" height="">
-            </a></li>
-            <li><a class="social-button" href="#">
-                <span class="visually-hidden">Инстаграм</span>
-                <img src="img/insta-icon.svg" width="" height="">
-            </a></li>
-        </ul>
-        <p>Copyright Masum Parvej, All Rights Reserved</p>
+    <div class="social-background">
+        <div class="footer-social flex-container">
+            <p class="follow">Follow us</p>
+            <ul class="social-item">
+                <li><a class="social-button" href="#">
+                    <span class="visually-hidden">Pinterest</span>
+                    <img class="pinterest" src="img/footer_pinterest.svg">
+                </a></li>
+                <li><a class="social-button" href="#">
+                    <span class="visually-hidden">Twitter</span>
+                    <img class="twitter" src="img/footer_twitter.svg">
+                </a></li>
+                <li><a class="social-button" href="#">
+                    <span class="visually-hidden">Facebook</span>
+                    <img class="facebook" src="img/footer_facebook.svg">
+                </a></li>
+                <li><a class="social-button" href="#">
+                    <span class="visually-hidden">Twitter copy</span>
+                    <img class="twitter-copy" src="img/footer_twitter_copy.svg">
+                </a></li>
+            </ul>
+            <p>Copyright Masum Parvej, All Rights Reserved</p>
+        </div>
     </div>
 </footer>
+<script src="script.js"></script>
 </body>
 </html>
